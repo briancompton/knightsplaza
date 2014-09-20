@@ -1,0 +1,897 @@
+.row.limited-width {
+	margin: 0 auto;
+	max-width: 1170px;
+}
+
+.content-box-holder {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
+.content-box-holder > a {
+	
+}
+
+.row.row1 {
+	padding-top: 30px;
+	background-color: #fff;
+}
+
+.row.row2 {
+	
+}
+
+
+.row1 .content-box {
+	height: 300px;
+}
+
+.row2 .content-box {
+	height: 180px;
+}
+
+.content-box-holder > a {
+	float: left;
+	position: relative;
+	text-decoration: none;
+	width: 100%;
+}
+
+.content-box-holder:last-of-type {
+	/* padding-right: 30px; */
+}
+
+.content-box {
+	background-color: #F7F7F7;
+/* 	border: 1px solid #CCC; */
+/*
+	border-radius: 2px;
+	border-top: 1px solid #ffd119;
+*/
+	min-height: 100%;
+	overflow: hidden;
+  position: relative;
+}
+
+.headline {
+	background-color: #FFD119;
+  color: #000000;
+  font-family: "futura-pt",sans-serif;
+  font-size: 22px;
+  letter-spacing: 0.5px;
+  line-height: 22px;
+  min-width: 100%;
+/*   padding-left: 10px; */
+	padding: 2px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  /* width: 100%; */
+  z-index: 1;
+}
+
+.area { 
+	background-color: #fc0;
+	height: 44px;
+	position: relative;
+	width: 100%;
+}
+
+.bubble { 
+	display: table;
+	height: 100%;
+  position: absolute; 
+  top: 0; 
+  width: 100%; 
+}
+
+.bubble p {
+  display: table-cell;
+  font-family: "futura-pt", sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 0 10px;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle; 
+}
+
+/*
+.content-box-holder .headline {
+	padding: 4px 10px;
+}
+*/
+
+.content-box .post {
+  padding: 40px 20px 20px;
+  position: relative;
+}
+
+.go.content-box .post {
+	height: 460px;
+	padding-top: 0;
+}
+
+.eateries .post {
+	height: 410px;
+	overflow: hidden;
+}
+
+
+.post p {
+    font-size: 15px;
+    line-height: 19px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+
+.mid-content {
+	background-color: #fff;
+	color: #000;
+	padding: 190px 40px 0;
+	position: relative;
+	top: 0;
+	z-index: 0;	
+}
+
+.not-home .mid-content {
+	padding-top: 30px;
+}
+
+.sorterer {
+	float: left;
+	margin-bottom: 20px;
+	padding: 20px;
+	width: 94%;
+}
+
+.sorterer h1 {
+	float: left;
+	font-size: 3.20px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	padding-left: 20px;
+	text-transform: uppercase;
+}
+
+
+.dimmerer {
+	opacity: 0.25;
+}
+
+
+
+/* Eateries */
+
+/*
+.eateries, .views {
+	background-color: #f7f7f7;
+	color: #000;
+	margin-bottom: 30px;
+	margin-left: 9px !important;
+	margin-right: 9px !important;
+	position: relative;
+}
+*/
+
+/*
+.eateries .views {
+	margin-left: 6px !important;
+	margin-right: 6px !important;
+}
+*/
+
+.eateries .content, .views .content {
+	border: 1px solid #ccc;
+	margin-top: 18px;
+	padding: 20px;
+}
+
+.eateries-name {
+	font-size: 13px;
+	margin-bottom: 20px;
+}
+
+.eateries-logo {
+	float: right;
+}
+
+.views ul {
+	margin: 0;
+}
+
+.eatery-contact ul {
+	margin: 0;
+	padding-bottom: 0;
+	text-align: center;
+}
+
+.eatery-contact li {
+	display: inline-block;
+	padding: 2px;
+}
+
+.eatery-contact li:hover {
+	color: #09c;
+	cursor: pointer;
+}
+
+.horiz-ul {
+	margin: 0;
+	text-align: center;
+}
+
+.horiz-ul li {
+	display: inline-block;
+}
+
+
+.eateries li, .views li {
+	list-style-type: none;
+}
+
+.eateries .open {
+	background-color: #693;
+	color: #fff;
+	float: left;
+	height: 20px;
+	margin-bottom: 20px;
+	text-align: right;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+.views .open, .views .closed {
+	display: none;
+}
+
+.eateries .closed {
+	color: #888;
+	float: left;
+	height: 20px;
+	margin-bottom: 20px;
+	margin-left: 14px !important;
+	text-align: right;
+	text-transform: uppercase;
+	width: 100%;
+	display: none;
+}
+
+.sorterer {
+	/* background-color: #f7f7f7; */
+	float: left;
+	margin-bottom: 20px;
+	padding: 20px;
+	width: 94%;
+}
+
+.error-page .sorterer {
+	margin-top: 40px;
+}
+
+.sorterer h1 {
+	float: left;
+	font-size: 20px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.views .headline {
+	padding-left: 0;
+	text-align: center;
+}
+
+
+.event-name {
+	background-color: #fc0;x
+	float: left;
+	font-size: 14px;
+	padding: 20px 0;
+	width: 100%;
+}
+
+.view-admat {
+	border-radius: 2px;
+	margin-bottom: 20px;
+}
+
+.logo-area {
+	height: 193px;
+	overflow: hidden;
+	width: 241px;
+}
+
+.eateries .view-admat {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+	text-align: center;
+}
+
+.opening-soon:before {
+    color: #FFFFFF;
+    content: "Opening Soon";
+    float: left;
+    font-family: "futura-pt",sans-serif;
+    font-size: 24px;
+    left: 40px;
+    line-height: 30px;
+    position: absolute;
+    text-align: right;
+    text-transform: uppercase;
+    top: 10px;
+    width: 110px;
+}
+
+.opening-soon {
+    border-bottom: 170px solid transparent;
+    border-right: 170px solid #0099CC;
+    color: #FFFFFF;
+    height: 0;
+    opacity: .9;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 0;
+    z-index: 2;
+}
+
+.closed-for-break:before {
+    color: #FFFFFF;
+    content: "Closed for Break";
+    float: left;
+    font-family: "futura-pt",sans-serif;
+    font-size: 24px;
+    left: 40px;
+    line-height: 22px;
+    position: absolute;
+    text-align: right;
+    text-transform: uppercase;
+    top: 10px;
+    width: 110px;
+}
+
+.closed-for-break {
+    border-bottom: 170px solid transparent;
+    border-right: 170px solid #b20000;
+    color: #FFFFFF;
+    height: 0;
+    opacity: .9;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 0;
+    z-index: 2;
+}
+
+.available:before {
+    color: #FFFFFF;
+    content: "Available";
+    float: left;
+    font-family: "futura-pt",sans-serif;
+    font-size: 24px;
+    left: 40px;
+    line-height: 30px;
+    position: absolute;
+    text-align: right;
+    text-transform: uppercase;
+    top: 10px;
+    width: 110px;
+}
+
+.available {
+    border-bottom: 170px solid transparent;
+    border-right: 170px solid #0099CC;
+    color: #FFFFFF;
+    height: 0;
+    opacity: .9;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 0;
+    z-index: 2;
+}
+
+
+.go .view-admat {
+	background-color: #000000;
+  border: none;
+  height: 225px;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.view-admat img {
+/* 	max-width: 56%; */
+	padding: 20px 10px 10px;
+}
+
+.go .view-admat img {
+	height: 245px;
+  max-width: 101%;
+  padding-top: 0;
+  position: relative;
+  top: 0;
+  width: 360px;
+}
+
+.event-at-glance, .eatery-at-glance {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	float: right;
+	text-align: center;
+	/* width: 64px; */
+}
+
+.eatery-at-glance {
+	border: none;
+	border-left: 1px solid #ccc;
+	height: 185px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding-top: 14px;
+	/* width: 175px; */
+}
+
+.eatery-timekeeper .event-date.event-time {
+	font-size: 2.8rem;
+	/* font-weight: 300; */
+}
+
+.eatery-timekeeper {
+	/*
+float: left;
+	width: 100%;
+*/
+}
+
+.eatery-at-glance .event-time {
+	color: #333;
+}
+
+.eatery-days {
+    padding-bottom: 10px;
+}
+
+.eatery-days ul {
+	margin: 0;
+	text-align: center;
+}
+
+.eatery-days li {
+	display: inline-block;
+	font-size: 12px;
+	height: 19px;
+	line-height: 20px;
+	margin: 0;
+	vertical-align: middle;
+	width: 19px;
+}
+
+.eatery-days .today {
+	background-color: #CCC;
+	border-radius: 10px;
+  font-weight: 600;
+}
+
+.eatery-phone, .eatery-address {
+	/*
+border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+*/
+	font-size: .9rem;
+	letter-spacing: .5px;
+	line-height: 10px;
+	margin: 0 auto;
+	padding: 12px 0 7px;
+	width: 86%;
+}
+
+.eatery-address {
+	font-size: 0.8rem;
+	letter-spacing: normal;
+}
+
+
+.lower-contact-us a, .smedia a {
+	color: #000;
+	display: block;
+	float: left;
+	font-size: 28px;
+	padding: 20px 17px;
+	text-decoration: none;
+}
+
+/*
+.smedia a {
+	font-family: "socialico";
+	font-size: 48px;
+	padding-left: 18px;
+	padding-right: 18px;
+}
+*/
+
+.facebook a:hover, a:focus {
+	color: #3b5998;
+}
+
+.twitter a:hover, a:focus {
+	color: #2ba9e1;
+}
+
+.youtube a:hover, a:focus {
+	color: #d02525;
+}
+
+.flickr a:hover, a:focus {
+	color: #0063dc;
+}
+
+.lower-contact-us a:hover, .lower-contact-us a:focus/* , .smedia a:hover, .smedia a:focus */ {
+	color: #09c;
+}
+
+.eatery-smedia a {
+    color: #333333;
+    font-size: 30px;
+    height: 42px;
+    padding: 8px 5px 5px;
+    text-align: center;
+}
+
+
+.tenant-address > a {
+	color: #09c;
+	font-size: 13px;
+}
+
+.eatery-pills-holder {
+	bottom: 20px;
+	height: 34px;
+	left: 20px;
+	overflow: hidden;
+	padding: 0 20px;
+	position: absolute;
+	width: 100%;
+}
+
+.eatery-pills {
+	letter-spacing: .5px;
+	padding: 10px 0 3px;
+	text-transform: uppercase;
+}
+
+.eatery-pills span {
+	font-size: 10px;
+	padding-top: 4px;
+}
+
+/*
+.eatery-pills span:first-child {
+	margin-left: 20px;
+}
+*/
+
+.eatery-smedia a:hover, .eatery-smedia a:focus {
+	color: #09c;
+}
+
+.event-at-glance .event-date {
+	color: inherit;
+	padding: 8px 0 5px;
+}
+
+.event-at-glance .event-time {
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	margin: 0 10%;
+	padding-bottom: 10px;
+	padding-top: 6px;
+	width: 80%;
+}
+
+.event-at-glance > img {
+	max-width: 80%;
+}
+
+.event-icons {
+	color: #000;
+	padding: 6px;
+	text-align: center;
+}
+
+.event-icons:hover {
+	cursor: default;
+	text-decoration: none;
+}
+
+.event-time-hour {
+	float: left;
+	height: 20px;
+	padding-left: 20%;
+	width: 30%;
+}
+
+.eateries .event-time-hour {
+	letter-spacing: -2px;
+	padding-left: 8%;
+	padding-right: 6%;
+	padding-top: 6px;
+	text-align: right;
+	width: 55%;
+}
+
+.go .event-time-hour {
+	float: left;
+	font-size: 3.20px;
+	left: -2px;
+	position: relative;
+	text-align: right;
+	/*
+padding-left: 4%;
+	padding-right: 10%;
+*/
+}
+
+.event-time-minutes, .event-time-meridiem {
+	float: left;
+	font-size: 16px;
+	letter-spacing: .5px;
+	line-height: 10px;
+	text-align: left;
+	width: 50%;
+}
+
+.event-time-meridiem {
+	font-size: 1.10px;
+	line-height: 16px;
+	letter-spacing: 0.9px;
+}
+
+.eateries .event-time-minutes, .eateries .event-time-meridiem {
+	width: 30%;
+}
+
+.eateries .opener:after {
+	content: " - ";
+    font-size: 40px;
+    position: absolute;
+    right: -20px;
+    text-align: left;
+    width: 26px;
+}
+
+.event-desc {
+	height: 140px;
+	overflow: hidden;
+	padding-left: 5px;
+}
+
+.eateries .event-desc {
+	height: 80px;
+}
+
+.event-date {
+	/* border-bottom: 1px solid #ccc; */
+  color: #b20000;
+  float: left;
+  font-family: "open-sans", sans-serif; /* font-family: "proxima-nova",sans-serif; */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 15px;
+  margin: 0 auto;
+  padding: 14px 0;
+  text-transform: uppercase;
+  /* width: 100%; *//* 30%; */
+}
+
+.eateries .boxerer .event-date {
+	width: 66px;
+}
+
+.eateries .event-date {
+	padding: 0 0 7px;
+	width: 50%;
+}
+
+.go .event-date {
+	width: 100%;
+}
+
+.eatery-closed {
+  float: left;
+  font-size: 18px;
+  line-height: 28px;
+  padding: 0 0 7px;
+  width: 100%;
+}
+
+.btn-info {
+	background-color: #09c;
+}
+
+.btn {
+	background-image: none;
+}
+
+.btn-selected {
+    background-color: #CCCCCC;
+    box-shadow: none; /* 0 0 2px #666666 inset; */
+}
+
+.kp button, html input[type="button"], input[type="reset"], input[type="submit"] {
+	border: none;
+	box-shadow: none;
+	letter-spacing: .5px;
+	text-shadow: none;
+}
+
+.kp button:hover, html input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover {
+	background-color: #0086B2;
+	border: none;
+	box-shadow: none;
+	text-shadow: none;
+}
+
+.event-at-glance {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    height: 210px;
+    left: 10px;
+    position: absolute;
+    text-align: center;
+    /* top: 286px; */
+    width: 100px;
+}
+
+.event-at-glance .event-date {
+	color: inherit;
+	float: left;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 22px;
+	margin: 0 auto;
+	padding: 8px 0 0;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+.event-date .day {
+	font-size: 44px;
+	line-height: 44px;
+}
+
+.event-date .month {
+	font-size: 24px;
+}
+
+.event-at-glance .event-time {
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	margin: 0 10% 5px;
+	padding-bottom: 10px;
+	padding-top: 6px;
+	width: 80%;
+}
+
+.event-time-hour {
+	float: left;
+	font-size: 3rem;
+	height: 20px;
+	padding-left: 20%;
+	width: 30%;
+}
+
+.event-time-minutes, .event-time-meridiem {
+	float: left;
+	font-size: 15px;
+	letter-spacing: .5px;
+	line-height: 17px;
+	text-align: left;
+	width: 50%;
+}
+
+.event-time-meridiem {
+	font-size: 12px;
+	line-height: 10px;
+}
+
+.time-holder {
+  float: left;
+  height: 30px;
+  padding-top: 4px;
+}
+
+.time-hour {
+    float: left;
+    font-size: 40px;
+    letter-spacing: -6px;
+    line-height: 34px;
+    width: 40px;
+}
+
+.time-hour p {
+	font-size: 40px;
+	padding: 0;
+	text-align: right;
+}
+
+.time-right {
+  float: left;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  width: 30px;
+}
+
+.eatery-timekeeper .time-right {
+	left: 4px;
+	position: relative;
+	top: -10px;
+}
+
+.time-minutes > p {
+	font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.time-meridiem > p {
+    color: #333333;
+    line-height: 16px;
+}
+
+.eatery-contact {
+	font-size: 16px;
+}
+
+.event-venue {
+    font-size: 40px;
+}
+
+
+.event-info i {
+	color: #555;
+	left: 8px;
+	position: absolute;
+	top: 7px;
+}
+
+.event-details {
+	/*
+height: 130px;
+	line-height: 22px;
+	overflow: hidden;
+	position: absolute;
+	top: 250px;
+	width: 70%;
+*/
+}
+
+/* .event-details p:not(:first-child) { */
+.event-details p {
+	float: right;
+    font-size: 16px;
+    margin-right: 8%;
+    padding-top: 5px;
+    width: 60%;
+}
+
+.event-image {
+		background-color: #f2f2f2;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.row.more-info {
+	bottom: 10px;
+	padding: 10px 16px 10px;
+	position: absolute;
+}

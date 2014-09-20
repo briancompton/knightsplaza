@@ -1,0 +1,153 @@
+/* Customize Login Screen */
+body.login {
+	background: url(../img/bg-block-wall.jpg) repeat #333 fixed;
+	color: #000;
+}
+
+.login #login {
+	background-color: #000;
+	height: 100%;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.login form {
+	border-radius: 4px;
+	box-shadow: none;
+}
+
+.login h1 a {
+	background-image: url(../img/kp-logo-01.svg);
+	background-size: 300px 80px;
+	width: 300px;
+}
+
+.login label {
+	color: #000;
+}
+
+.wp-core-ui .button-primary {
+	background: none repeat scroll 0 0 #0099CC;
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.login #nav a, .login #backtoblog a {
+	color: #09c;	
+}
+
+/* Hide theme customizer */
+.theme-options { display: none; }
+
+/* Custom icons in the Admin Panel */
+#wp-admin-bar-site-name a:before {
+		background: url(../img/KP-WP-admin-icons32.png) no-repeat -720px 0 !important;
+		content: " ";
+		height: 32px;
+		width: 32px;
+}
+
+#menu-posts-faqs .wp-menu-image {
+    background: url(../img/KP-WP-admin-icons.png) no-repeat -300px -31px !important;
+}
+#menu-posts-faqs:hover .wp-menu-image, #menu-posts-faqs.wp-has-current-submenu .wp-menu-image {
+    background-position: -300px 1px!important;
+}
+
+/* Get rid of the pins from MP6 plugin */
+.icon16.icon-posts-faqs:before,
+#adminmenu #menu-posts-faqs div.wp-menu-image:before {
+		content: '';
+		display: none;
+}
+
+
+/* Get rid of the pins from MP6 plugin */
+.icon16.icon-posts-park:before,
+#adminmenu #menu-posts-park div.wp-menu-image:before {
+		content: '';
+		display: none;
+}
+
+/* Get rid of the pins from MP6 plugin */
+.icon16.icon-posts-towers:before,
+#adminmenu #menu-posts-towers div.wp-menu-image:before {
+		content: '';
+		display: none;
+}
+
+
+
+#menu-posts-ai1ec_event div.wp-menu-image:before,
+#menu-posts-locations div.wp-menu-image:before {
+	font-family: 'Knights-Plaza' !important;
+	font-size: 18px !important;
+}
+
+#toplevel_page_wpcf7 div.wp-menu-image:before {
+	font-family: 'Knights-Plaza' !important;
+	font-size: 18px !important;
+}
+
+#toplevel_page_wpcf7 img {
+	display: none;
+}
+
+#wpadminbar #wp-admin-bar-my-sites > .ab-item:before, #wpadminbar #wp-admin-bar-site-name > .ab-item:before {
+	color: #fc0;
+	content: "D";
+	font-family: 'Knights-Plaza' !important;
+}
+
+#wp-admin-bar-wp-logo {
+  display: none;
+}
+
+.icon16.icon-posts-ai1ec_event:before,
+#adminmenu #menu-posts-ai1ec_event div.wp-menu-image:before {
+	content: 'M';
+}
+
+.icon16.icon-posts-locations:before,
+#adminmenu #menu-posts-locations div.wp-menu-image:before {
+	content: 'm';
+}
+
+#adminmenu #toplevel_page_wpcf7 div.wp-menu-image:before {
+	content: 'n';
+}
+
+
+
+#menu-posts-park .wp-menu-image {
+    background: url(../img/KP-WP-admin-icons.png) no-repeat -87px -31px !important;
+}
+#menu-posts-park:hover .wp-menu-image, #menu-posts-park.wp-has-current-submenu .wp-menu-image {
+    background-position: -87px 1px!important;
+}
+
+#menu-posts-towers .wp-menu-image {
+    background: url(../img/KP-WP-admin-icons.png) no-repeat -327px -31px !important;
+}
+#menu-posts-towers:hover .wp-menu-image, #menu-posts-towers.wp-has-current-submenu .wp-menu-image {
+    background-position: -327px 1px!important;
+}
+
+.icon32-posts-faqs {
+  background: url(../img/KP-WP-admin-icons32.png) no-repeat -600px 0 !important;
+}
+
+.icon32-posts-park {
+  background: url(../img/KP-WP-admin-icons32.png) no-repeat -180px 0 !important;
+}
+
+.icon32-posts-towers {
+  background: url(../img/KP-WP-admin-icons32.png) no-repeat -660px 0 !important;
+}
+
+
+/* Hide custom fields box in Add New Events */
+
+.ai1ec-visible #postcustom {
+	display: none;
+}

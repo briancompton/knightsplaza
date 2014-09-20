@@ -1,0 +1,355 @@
+/* Note to Developer: You must go to Admin > Events > Theme Options > Save Options to recompile the Events CSS for changes in this file to take effect.  */
+
+.ai1ec-calendar-toolbar {
+    /* background-color: #F8F8F8; */
+    background-image: none;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: none;
+    margin-bottom: 8px;
+    padding: 4px 8px;
+    text-shadow: none;
+}
+
+.timely .btn {
+	background-image: none;
+	box-shadow: none;
+	text-shadow: none;
+}
+
+
+
+.ai1ec-event-title {
+	/*
+font-family: "proxima-nova",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+*/
+}
+
+.ai1ec-event-title {
+    float: left;
+    line-height: 31px;
+    padding-left: 10px;
+    width: 78%;
+}
+
+.ai1ec-stream-view {
+	margin: auto;
+    width: 90%;
+}
+
+.kp-events .ai1ec-stream-view {
+	position: relative;
+	top: 6px;
+	width: 100%;
+}
+
+.ai1ec-stream-view .ai1ec-event-time {
+    font-size: 12px;
+}
+
+.ai1ec-month-view th, .ai1ec-week-view th, .ai1ec-oneday-view th {
+  background: #FFCC00 !important;
+}
+
+.ai1ec-month-view .ai1ec-date {
+  background-color: transparent;
+}
+
+.ai1ec-month-view th, .ai1ec-week-view th, .ai1ec-week-view .ai1ec-hour-marker div, .ai1ec-week-view .ai1ec-allday-label, .ai1ec-oneday-view th, .ai1ec-oneday-view .ai1ec-hour-marker div, .ai1ec-oneday-view .ai1ec-allday-label {
+    color: #000000 !important;
+    text-shadow: none;
+}
+
+th.ai1ec-weekday {
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.ai1ec-posterboard-view .ai1ec-event-time {
+    color: #000;
+    float: left;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.kp-events .ai1ec-event-title {
+	font-family: "open-sans",sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	height: 18px;
+	line-height: normal;
+	overflow: hidden;
+	padding-left: 0;
+	width: 100%;
+}
+
+.kp-events .ai1ec-event-title a {
+	float: left;
+	overflow: hidden;
+	width: 94%;
+}
+
+.kp-events .ai1ec-event-title a:after {
+    /*
+background-color: #FFFFFF;
+    color: #0099CC;
+*/
+    box-shadow: 13px 0 7px #fff inset;
+    content: " ";
+    padding-left: 2px;
+    position: absolute;
+    right: -10px;
+    width: 25px;
+    z-index: 100;
+}
+
+.kp-events .ai1ec-container {
+	position: relative;
+}
+
+/*
+div.ai1ec-event {
+	color: #0099cc !important;
+}
+*/
+
+h2.ai1ec-calendar-title {
+    color: #000000 !important;
+    font-family: Futura, "futura-pt", sans-serif;
+    font-weight: 300 !important;
+    margin: 8px 8px 6px 0 !important;
+    text-transform: uppercase;
+}
+
+.ai1ec-stream-view .ai1ec-date-title a, .ai1ec-stream-view .ai1ec-date-title a:hover {
+    color: #000000 !important;
+    font-family: Futura, "futura-pt", sans-serif;
+    font-size: 18px;
+}
+
+.ai1ec-stream-view .ai1ec-date-title {
+	background-color: #ffcc00;
+	color: #000 !important;
+	text-shadow: none;
+}
+
+.ai1ec-posterboard-view .ai1ec-event-wrap {
+	background-color: #f7f7f7;
+	border-radius: 4px;
+	box-shadow: none;
+}
+
+.ai1ec-event-avatar {
+	background-color: #f2f2f2;
+	box-shadow: none;
+}
+
+.ai1ec-month {
+	background-color: #fc0;
+}
+
+.ai1ec-posterboard-view .ai1ec-date-block-wrap {
+	background: none;
+	border: 1px solid #eee;
+	opacity: 1;
+	text-shadow: none;
+}
+
+.ai1ec-posterboard-view .ai1ec-month {
+	background-color: #b20000;
+}
+
+.ai1ec-posterboard-view .ai1ec-day, .ai1ec-posterboard-view .ai1ec-weekday {
+	background-color: #fff;
+	color: #000;
+	font-weight: 300;
+	text-shadow: none;
+}
+
+.ai1ec-posterboard-view .ai1ec-weekday {
+	font-size: 1rem;
+}
+
+.entry-content .timely a, .comment-content .timely a, .site-footer .widget .timely a {
+	color: #000;
+}
+
+.ai1ec-event-description {
+	padding: 10px;
+}
+
+.ai1ec-stream-view .ai1ec-event {
+	background-color: #fff;
+	border-color: #eee;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-top-color: transparent;
+	border-radius: 0;
+	box-shadow: none;	
+	opacity: 1;
+	margin-bottom: 0;
+	padding: 20px 0;
+}
+
+.ai1ec-stream-view .ai1ec-event:nth-child(even) {
+	/* background-color: #f7f7f7; */
+}
+
+.ai1ec-date:last-child {
+    margin-bottom: 40px;
+}
+
+.ai1ec-stream-view .ai1ec-event-avatar {
+		border-radius: 0 0 0 0;
+    bottom: 0;
+    box-shadow: none;
+    height: 120px;
+    left: 20px;
+    overflow: hidden;
+    position: absolute;
+    top: 8px;
+    width: 140px;
+}
+
+.ai1ec-stream-view .ai1ec-date-title {
+	background-color: #FFCC00;
+    border-radius: 4px 4px 0 0;
+    color: #000000 !important;
+    margin-bottom: 0;
+    margin-top: 30px;
+    text-shadow: none;
+}
+
+ul.nav.nav-pills {
+	float: right !important;
+}
+
+.ai1ec-posterboard-view .ai1ec-event-wrap {
+	border-color: #ccc;
+	border-radius: 4px;
+}
+
+.ai1ec-posterboard-view .ai1ec-event-title {
+	padding-top: 10px;
+}
+
+.timely {
+	color: #000;
+	font-family: "open-sans",sans-serif;
+}
+
+.timely a {
+	color: #09c;
+}
+
+#ai1ec-calendar {
+	padding-bottom: 10px;
+	padding-top: 30px;
+}
+
+#ai1ec-container .ai1ec-stream-view img {
+	left: -50px;
+    position: relative;
+}
+
+.ai1ec-posterboard-view footer {
+	background-color: #ccc;
+	border-color: #eee;
+	border-radius: 0 0 4px 4px;
+	border-top-color: transparent;
+	box-shadow: none;
+}
+
+.ai13c-posterboard-view footer > a {
+	color: #666;
+}
+
+.ai1ec-posterboard-view footer:after, .ai1ec-stream-view .ai1ec-event-title:after {
+	background: none;
+}
+
+/* Home Page KP Events */
+
+.kp-events .ai1ec-pagination, .kp-events .ai1ec-event-avatar-wrap, .kp-events .ai1ec-calendar-toolbar, .kp-events .ai1ec-calendar-view > .clearfix, .kp-events .ai1ec-date-title, .kp-events #ai1ec-calendar-view > .clearfix, .kp-events .ai1ec-content_img.ai1ec-landscape, .kp-events .ai1ec-content_img.ai1ec-portrait, .kp-events .ai1ec-event-description {
+	display: none;
+}
+
+.kp-events #ai1ec-calendar {
+	padding-top: 0;
+}
+
+.kp-events .ai1ec-event-inner {
+	margin-left: 18px;
+}
+
+.not-home .ai1ec-stream-view .ai1ec-event-inner {
+	margin-left: 170px;
+}
+
+.kp-events .ai1ec-stream-view .ai1ec-event {
+	border-color: #eee;
+	border-radius: 4px;
+	margin-bottom: 5px;
+	margin-left: 6px;
+	margin-right: 6px;
+	min-height: 1px;
+	padding: 4px 0;
+}
+
+.kp-events .bar-footer, .towers-residents .bar-footer {
+	border-top: 10px none;
+  height: 48px;
+}
+
+.host-an-event img {
+
+}
+
+.kp-events .timely .icon-calendar:before {
+	display: none;
+}
+
+.not-home .ai1ec-stream-view .ai1ec-meta-divide {
+	border-left-color: transparent;
+}
+
+.ai1ec-month-view .ai1ec-event {
+	height: auto;
+}
+
+.ai1ec-month-view .ai1ec-event-title {
+	line-height: normal;
+}
+
+.ai1ec-month-view .ai1ec-event-time {
+	display: none;
+}
+
+/* Hide custom fields box in Add New Events */
+
+.ai1ec-visible #postcustom {
+	display: none;
+}
+
+/* Not front page streamview styling */
+
+.not-home .footer-upper .ai1ec-stream-view .ai1ec-event-inner {
+	margin-left: 12px;
+}
+
+.footer-upper .ai1ec-stream-view {
+	top: 0;
+}
+
+.footer-upper .kp-events .ai1ec-stream-view .ai1ec-event {
+	padding-bottom: 6px;
+	padding-top: 6px;
+}
+
+.footer-upper .kp-events .ai1ec-event-title a {
+	width: 100%;
+}

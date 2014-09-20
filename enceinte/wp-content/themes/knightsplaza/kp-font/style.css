@@ -1,0 +1,223 @@
+@font-face {
+	font-family: 'Knights-Plaza';
+	src:url('fonts/Knights-Plaza.eot');
+	src:url('fonts/Knights-Plaza.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Knights-Plaza.woff') format('woff'),
+		url('fonts/Knights-Plaza.ttf') format('truetype'),
+		url('fonts/Knights-Plaza.svg#Knights-Plaza') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'Knights-Plaza';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="kp-"] {
+*/
+.kp-office, .kp-see, .kp-kplogo-upper, .kp-kplogo-lower, .kp-sfo, .kp-stacked, .kp-pegasus, .kp-kplogo-small, .kp-kp-logo-full, .kp-youtube, .kp-share, .kp-google-plus, .kp-flickr, .kp-twitter, .kp-facebook, .kp-cfe, .kp-do, .kp-shop, .kp-park, .kp-you-tube, .kp-phone, .kp-lease, .kp-email, .kp-info, .kp-huh, .kp-tag, .kp-newsletter, .kp-mobile-device, .kp-search, .kp-map, .kp-grid, .kp-boxes, .kp-list, .kp-flux-capacitor, .kp-athletics, .kp-play, .kp-eat, .kp-web, .kp-microphone, .kp-users, .kp-user, .kp-heart, .kp-star, .kp-clock, .kp-calendar, .kp-music, .kp-ticket, .kp-trophy, .kp-theatre, .kp-commencement, .kp-celebration, .kp-football, .kp-basketball, .kp-sport, .kp-mixer, .kp-chill, .kp-mingle, .kp-mix, .kp-bug, .kp-home, .kp-mixer-2 {
+	font-family: 'Knights-Plaza';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.kp-office:before {
+	content: "\e012";
+}
+.kp-see:before {
+	content: "\e00f";
+}
+.kp-kplogo-upper:before {
+	content: "\e003";
+}
+.kp-kplogo-lower:before {
+	content: "\e00d";
+}
+.kp-sfo:before {
+	content: "\e005";
+}
+.kp-stacked:before {
+	content: "\e004";
+}
+.kp-pegasus:before {
+	content: "\e001";
+}
+.kp-kplogo-small:before {
+	content: "\e002";
+}
+.kp-kp-logo-full:before {
+	content: "\e000";
+}
+.kp-youtube:before {
+	content: "\e00c";
+}
+.kp-share:before {
+	content: "\e00b";
+}
+.kp-google-plus:before {
+	content: "\e00a";
+}
+.kp-flickr:before {
+	content: "\e009";
+}
+.kp-twitter:before {
+	content: "\e008";
+}
+.kp-facebook:before {
+	content: "\e007";
+}
+.kp-cfe:before {
+	content: "\e006";
+}
+.kp-do:before {
+	content: "\e013";
+}
+.kp-shop:before {
+	content: "\e014";
+}
+.kp-park:before {
+	content: "\e015";
+}
+.kp-you-tube:before {
+	content: "\e016";
+}
+.kp-phone:before {
+	content: "\e017";
+}
+.kp-lease:before {
+	content: "\e018";
+}
+.kp-email:before {
+	content: "\e019";
+}
+.kp-info:before {
+	content: "\e01a";
+}
+.kp-huh:before {
+	content: "\e01c";
+}
+.kp-tag:before {
+	content: "\e01d";
+}
+.kp-newsletter:before {
+	content: "\e01e";
+}
+.kp-mobile-device:before {
+	content: "\e01f";
+}
+.kp-search:before {
+	content: "\e020";
+}
+.kp-map:before {
+	content: "\e022";
+}
+.kp-grid:before {
+	content: "\e023";
+}
+.kp-boxes:before {
+	content: "\e024";
+}
+.kp-list:before {
+	content: "\e025";
+}
+.kp-flux-capacitor:before {
+	content: "\e026";
+}
+.kp-athletics:before {
+	content: "\e027";
+}
+.kp-play:before {
+	content: "\e010";
+}
+.kp-eat:before {
+	content: "\e01b";
+}
+.kp-web:before {
+	content: "\e00e";
+}
+.kp-microphone:before {
+	content: "\e028";
+}
+.kp-users:before {
+	content: "\e029";
+}
+.kp-user:before {
+	content: "\e02a";
+}
+.kp-heart:before {
+	content: "\e02b";
+}
+.kp-star:before {
+	content: "\e02c";
+}
+.kp-clock:before {
+	content: "\e02e";
+}
+.kp-calendar:before {
+	content: "\e02f";
+}
+.kp-music:before {
+	content: "\e030";
+}
+.kp-ticket:before {
+	content: "\e031";
+}
+.kp-trophy:before {
+	content: "\e02d";
+}
+.kp-theatre:before {
+	content: "\e032";
+}
+.kp-commencement:before {
+	content: "\e033";
+}
+.kp-celebration:before {
+	content: "\e034";
+}
+.kp-football:before {
+	content: "\e035";
+}
+.kp-basketball:before {
+	content: "\e036";
+}
+.kp-sport:before {
+	content: "\e037";
+}
+.kp-mixer:before {
+	content: "\e039";
+}
+.kp-chill:before {
+	content: "\e038";
+}
+.kp-mingle:before {
+	content: "\e03a";
+}
+.kp-mix:before {
+	content: "\e011";
+}
+.kp-bug:before {
+	content: "\e021";
+}
+.kp-home:before {
+	content: "\e03b";
+}
+.kp-mixer-2:before {
+	content: "\e03c";
+}

@@ -1,0 +1,77 @@
+.btn {
+	position: relative;
+	z-index: 1;
+}
+
+.cal-holder {
+	margin-bottom: 40px;
+}
+
+.cal-date {
+    float: right;
+    font-family: "futura-pt",sans-serif;
+    padding: 4px 10px;
+}
+
+.cal-day-header {
+    background-color: #000000;
+    color: #F7F7F7;
+    float: left;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 8px 0 4px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 14.28%;
+}
+
+.cal-day {
+    background-color: #F5F5F5;
+    border: 1px solid #FFFFFF;
+    float: left;
+    height: 100px;
+    width: 14.28%;
+}
+
+.cal-today {
+    background-color: #FFCC00;
+}
+
+.cal-event {
+    float: left;
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 4px;
+    padding: 0 8px;
+    width: 100%;
+}
+
+.cal-title-holder {
+	float: left;
+	padding: 10px 180px;
+	text-align: center;
+	width: 100%;
+}
+
+.cal-title {
+    font-size: 22px;
+    left: 0;
+    line-height: 60px;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+#prev {
+	float: left;
+}
+
+#next {
+	float: right;
+}
+
+
+
